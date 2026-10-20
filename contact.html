@@ -3,56 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Sherif Shuaib</title>
+  <meta name="description" content="Contact Sherif Eneye Shuaib for research collaboration, student projects, and academic inquiries." />
+  <title>Contact — Sherif Eneye Shuaib</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Keep footer at the bottom even on short pages. */
+    html { min-height: 100%; }
+    body { min-height: 100vh; display: flex; flex-direction: column; margin: 0; }
+    main { flex: 1 0 auto; }
+    .site-footer { margin-top: auto; flex-shrink: 0; }
+  </style>
 </head>
 <body>
-
   <div class="wu-stripe"></div>
-
   <header class="site-header">
     <div class="nav-inner">
       <a href="index.html" class="site-logo">
-        <span class="logo-name">Sherif Shuaib</span>
+        <span class="logo-name">Sherif Eneye Shuaib</span>
         <span class="logo-sub">Applied Mathematics · Data Science</span>
       </a>
-      <nav>
+      <nav aria-label="Main navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="research.html">Research</a></li>
           <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="page-hero">
-    <div class="section-inner">
-      <h1>Contact</h1>
-    </div>
-  </section>
+  <main>
+    <section class="page-hero">
+      <div class="section-inner">
+        <h1>Contact</h1>
+      </div>
+    </section>
 
-  <section class="section">
-    <div class="section-inner contact-layout">
-
-      <div class="contact-main">
-        <h2>Get in Touch</h2>
-        <p>I welcome inquiries about research collaborations, speaking invitations, or questions about my research.</p>
-
-        <div class="contact-block">
-          <h3>Email</h3>
-          <p><a href="mailto:sherifeneye.sh@wu.ac.th">sherifeneye.sh@wu.ac.th</a></p>
+    <section class="section">
+      <div class="section-inner contact-layout">
+        <div class="contact-main">
+          <h2>Get in Touch</h2>
+          <p>I welcome inquiries about research collaborations, student research opportunities, speaking invitations, and my research in mathematical modelling, data science, and explainable AI.</p>
+          <div class="contact-block">
+            <h3>Email</h3>
+            <p><a href="mailto:sherifeneye.sh@wu.ac.th">sherifeneye.sh@wu.ac.th</a></p>
+          </div>
+          <div class="contact-block">
+            <h3>Academic Affiliation</h3>
+            <p>Lecturer in Mathematics and Statistics<br>School of Science, Walailak University<br>Thailand</p>
+          </div>
         </div>
-  </section>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-col">
+        <strong>Sherif Eneye Shuaib</strong>
+        <p>Lecturer in Mathematics and Statistics<br>Walailak University, Thailand</p>
+      </div>
       <div class="footer-col">
         <strong>Quick Links</strong>
         <ul>
@@ -66,12 +81,11 @@
       </div>
       <div class="footer-col">
         <strong>Contact</strong>
-        <p>320 Assiniboine Road, North York<br>Toronto, Ontario, M3J 1L1, Canada</p>
-        <p><a href="mailto:sherifeneyeshuaib@gmail.com" style="color:rgba(255,255,255,0.65);">sherifeneyeshuaib@gmail.com</a></p>
+        <p>School of Science<br>Walailak University, Thailand</p>
+        <p><a href="mailto:sherifeneye.sh@wu.ac.th" style="color:rgba(255,255,255,0.65);">sherifeneye.sh@wu.ac.th</a></p>
       </div>
     </div>
-    <div class="footer-copy">© 2025 Sherif Eneye Shuaib. All Rights Reserved.</div>
+    <div class="footer-copy">© 2026 Sherif Eneye Shuaib. All Rights Reserved.</div>
   </footer>
-
 </body>
 </html>
