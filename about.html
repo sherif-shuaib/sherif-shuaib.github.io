@@ -9,6 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <style>
+    /* Ensure the footer remains below the complete About content. */
+    body { min-height: 100vh; display: flex; flex-direction: column; margin: 0; }
+    .site-footer { margin-top: auto; flex-shrink: 0; width: 100%; }
     .about-intro { font-size: 1.03rem; line-height: 1.8; }
     .about-block p { line-height: 1.8; }
     .about-block .research-note { margin-top: 1rem; padding: 1rem 1.2rem; background: #f4f1f9; border-left: 4px solid #3b0d6b; border-radius: 0 6px 6px 0; }
@@ -138,9 +141,13 @@
           </div>
         </section>
         
-        <footer class="site-footer">
-        <div class="footer-inner">
-        <div class="footer-col">
+      </main>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
         <strong>Sherif Shuaib</strong>
         <p>Lecturer in Mathematics and Statistics<br>School of Science, Walailak University, Thailand</p>
       </div>
