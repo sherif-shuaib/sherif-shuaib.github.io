@@ -1,16 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Research — Sherif Eneye Shuaib</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Research — Sherif Eneye Shuaib</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet">
+<style>
     .rb {
       display: grid;
       grid-template-columns: 1fr 360px;
@@ -147,251 +145,169 @@
         padding: 0.85rem;
       }
     }
-  </style>
-</head>
-
+  
+    .student-research-block { padding: 2.7rem 0; border-bottom: 1px solid #e8eaf0; }
+    .student-research-block h2 { font-family: 'Crimson Pro', Georgia, serif; font-size: 1.65rem; color: #1a1a2e; margin-bottom: 0.85rem; }
+    .student-research-block p { font-size: 0.96rem; line-height: 1.8; color: #444; }
+    .student-grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin: 1.3rem 0; }
+    .student-grid article { padding: 1.2rem 1.3rem; border: 1px solid #e5e8f0; border-radius: 13px; background: #fafbfe; }
+    .student-grid h3 { font-family: 'Inter',sans-serif; font-size: .95rem; color: #29385e; margin: 0 0 .4rem; }
+    .student-grid p { margin:0; font-size: .9rem; }
+    .student-note { margin-top:1.1rem; }
+    @media (max-width:650px) { .student-grid { grid-template-columns: 1fr; } }
+</style>
+</link></head>
 <body>
-
-  <div class="wu-stripe"></div>
-
-  <header class="site-header">
-    <div class="nav-inner">
-      <a href="index.html" class="site-logo">
-        <span class="logo-name">Sherif Eneye Shuaib</span>
-        <span class="logo-sub">Applied Mathematics · Data Science</span>
-      </a>
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="research.html" class="active">Research</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="page-hero">
-    <div class="section-inner">
-      <h1>Research</h1>
-      <p class="page-hero-sub">
-        Mathematical modelling, machine learning, and decision-support tools for health, ecological, and environmental systems.
-      </p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-inner">
-
-      <!-- OVERVIEW -->
-      <div class="rb" style="border-top: 1px solid #e8eaf0;">
-        <div class="rb-text">
-          <span class="rb-tag" style="background:#3b0d6b;">Research Overview</span>
-          <h2>Mathematical &amp; Data-Driven Modelling</h2>
-          <p>
-            This research develops mathematical and data-driven models to study complex biological,
-            ecological, and public health systems — working at the intersection of applied mathematics,
-            epidemiology, ecology, data science, and machine learning, with a focus on building models
-            that are rigorous, interpretable, and useful for decision-making.
-          </p>
-          <p>
-            A central theme is the integration of mechanistic modelling with modern computational methods:
-            ordinary differential equations, statistical learning, forecasting, uncertainty analysis,
-            explainable AI, and simulation-based approaches for understanding system behaviour and
-            evaluating interventions.
-          </p>
-        </div>
-
-        <div class="rb-img">
-          <img
-            src="assets/images/overview.png"
-            alt="Abstract diagram of interconnected mathematical and data-driven research systems"
-          >
-        </div>
-      </div>
-
-      <!-- THEME 1: EPIDEMIOLOGY -->
-      <div class="rb flip">
-        <div class="rb-text">
-          <span class="rb-tag" style="background:#b83030;">Theme 1</span>
-          <h2>Mathematical Epidemiology &amp; Disease Modelling</h2>
-          <p>
-            This work develops and analyses mathematical models for infectious disease transmission,
-            public health risk, and outbreak response. It includes compartmental epidemic models,
-            risk-stratified population models, vaccination dynamics, limited-data forecasting, and
-            model-based evaluation of disease control strategies.
-          </p>
-          <p>
-            Applications span rotavirus, COVID-19, hand-foot-and-mouth disease, mpox, and other emerging
-            infectious disease settings — combining analytical methods, numerical simulation, and
-            data-driven approaches to support public health interpretation and preparedness.
-          </p>
-        </div>
-
-        <div class="rb-img">
-          <img
-            src="assets/images/epidemiology.png"
-            alt="Illustration of infectious disease modelling and epidemic dynamics"
-          >
-        </div>
-      </div>
-
-      <!-- THEME 2: ECOLOGY -->
-      <div class="rb">
-        <div class="rb-text">
-          <span class="rb-tag" style="background:#2e7d32;">Theme 2</span>
-          <h2>Ecological &amp; Climate-Health Systems</h2>
-          <p>
-            This research studies how environmental change, climate variability, and human activity shape
-            ecological systems and population dynamics. A major focus is on aquatic ecosystems, fisheries,
-            and the interaction between climate stressors and biological processes.
-          </p>
-          <p>
-            The doctoral research develops stage-structured mechanistic models to estimate maturation,
-            mortality, and recruitment parameters for economically important fish species — supporting
-            questions around climate adaptation, fisheries management, and the long-term resilience of
-            ecological and human systems.
-          </p>
-        </div>
-
-        <div class="rb-img">
-          <img
-            src="assets/images/ecology.jpg"
-            alt="Illustration of ecological systems, climate change, and aquatic population dynamics"
-          >
-        </div>
-      </div>
-
-      <!-- THEME 3: AI & FORECASTING -->
-      <div class="rb flip">
-        <div class="rb-text">
-          <span class="rb-tag" style="background:#1e4d8c;">Theme 3</span>
-          <h2>AI, Data Science &amp; Forecasting</h2>
-          <p>
-            Machine learning, statistical modelling, and time-series methods are used to detect patterns,
-            generate forecasts, and extract insight from complex datasets. The work is especially interested
-            in models that are not only predictive, but also interpretable and useful for scientific
-            understanding.
-          </p>
-          <p>
-            Applications include public health surveillance, environmental risk, agricultural systems,
-            fisheries, and social-media-derived signals related to ecological and health-related change.
-          </p>
-        </div>
-
-        <div class="rb-img">
-          <img
-            src="assets/images/AIDscience.jpg"
-            alt="Illustration of artificial intelligence, data science, and forecasting"
-          >
-        </div>
-      </div>
-
-      <!-- THEME 4: XAI -->
-      <div class="rb">
-        <div class="rb-text">
-          <span class="rb-tag" style="background:#5c4b9e;">Theme 4</span>
-          <h2>Explainable AI &amp; Hybrid Modelling</h2>
-          <p>
-            This research develops explainable and hybrid modelling frameworks — combining mechanistic
-            structure with machine learning to make complex models more transparent, auditable, and
-            scientifically meaningful.
-          </p>
-          <p>
-            A key contribution uses Formal Concept Analysis to provide lattice-based explanations for
-            ensemble learning methods such as XGBoost and Gradient Boosting. This framework organises
-            feature relationships and model decision structures in a way that supports interpretation well
-            beyond standard local explanation methods such as LIME and SHAP.
-          </p>
-        </div>
-
-        <div class="rb-img">
-          <img
-            src="assets/images/xai-hybrid.png"
-            alt="Illustration of explainable AI and hybrid modelling"
-          >
-        </div>
-      </div>
-
-      <!-- THEME 5: DECISION MODELLING -->
-      <div class="rb flip">
-        <div class="rb-text">
-          <span class="rb-tag" style="background:#1a6b5a;">Theme 5</span>
-          <h2>Decision Modelling &amp; Policy-Relevant Analysis</h2>
-          <p>
-            Across all research themes, a shared interest is in how models can support better decisions
-            under uncertainty. This includes evaluating intervention strategies, comparing policy scenarios,
-            quantifying uncertainty, and translating model outputs into practical recommendations.
-          </p>
-          <p>
-            Applications range from public health intervention timing and resource allocation to ecological
-            management thresholds and environmental planning — connecting rigorous mathematical analysis
-            with real-world decision needs.
-          </p>
-        </div>
-
-        <div class="rb-img">
-          <img
-            src="assets/images/decision-modelling.png"
-            alt="Illustration of decision modelling, policy analysis, and intervention planning"
-          >
-        </div>
-      </div>
-
-      <!-- PRESENTATIONS -->
-      <div class="pres-block">
-        <h2>Selected Presentations</h2>
-        <ul class="affil-list">
-          <li><strong>Invited (Virtual)</strong> — Universitas Terbuka, Indonesia: "A Mechanistic Stage-Structured Model..." (May 19, 2026)</li>
-          <li><strong>Invited</strong> — Disease-Informed Modeling Lab, York University (November 4, 2025)</li>
-          <li><strong>Invited</strong> — Grad Math &amp; Stats Seminar, York University (October 17, 2025)</li>
-          <li><strong>Invited</strong> — LIAM Fall 2025 Seminar Series, York University (September 17, 2025)</li>
-          <li><strong>Invited</strong> — Dahdaleh Institute Global Health Seminar Series, York University (January 10, 2024)</li>
-          <li><strong>Presenter</strong> — 8th Sci-Tech Symposium, Prince of Songkla University, Thailand (May 11, 2018)</li>
-          <li><strong>Presenter</strong> — International Seminar on Research Methods in Practice Workshop, Prince of Songkla University, Thailand (May 21, 2017)</li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-
-      <div class="footer-col">
-        <strong>Sherif Eneye Shuaib</strong>
-        <p>PhD Candidate · Applied Mathematics<br>York University, Toronto, Canada</p>
-      </div>
-
-      <div class="footer-col">
-        <strong>Quick Links</strong>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <strong>Contact</strong>
-        <p>Department of Mathematics and Statistics, York University<br>Toronto, Ontario, M3J 1L1, Canada</p>
-        <p>
-          <a href="mailto:sherifeneyeshuaib@gmail.com" style="color:rgba(255,255,255,0.65);">
+<div class="wu-stripe"></div>
+<header class="site-header">
+<div class="nav-inner">
+<a class="site-logo" href="index.html">
+<span class="logo-name">Sherif Eneye Shuaib</span>
+<span class="logo-sub">Applied Mathematics · Data Science</span>
+</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a class="active" href="research.html">Research</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="page-hero">
+<div class="section-inner">
+<h1>Research</h1>
+<p class="page-hero-sub">Mathematical modelling, explainable artificial intelligence, and data-driven methods for health, ecological, and environmental decision-making.</p>
+</div>
+</section>
+<section class="section">
+<div class="section-inner">
+<!-- OVERVIEW -->
+<div class="rb" style="border-top: 1px solid #e8eaf0;">
+<div class="rb-text">
+<span class="rb-tag" style="background:#3b0d6b;">Research Overview</span>
+<h2>Mathematical Models + Data + Decisions</h2>
+<p>My research connects applied mathematics, mathematical epidemiology, ecology, data science, and interpretable artificial intelligence. I study how biological and environmental systems change over time, how reliable predictions can be made from real data, and how those predictions can support responsible decisions.</p>
+<p>My methodological interests include ordinary differential equations, discrete-time and stage-structured models, statistical learning, Formal Concept Analysis (FCA), numerical simulation, forecasting, uncertainty analysis, and mathematical optimization. Current work and longer-term research directions are distinguished below.</p>
+</div>
+<div class="rb-img">
+<img alt="Abstract diagram of interconnected mathematical and data-driven research systems" src="assets/images/overview.png"/>
+</div>
+</div>
+<!-- THEME 1: EPIDEMIOLOGY -->
+<div class="rb flip">
+<div class="rb-text">
+<span class="rb-tag" style="background:#b83030;">Theme 1</span>
+<h2>Mathematical Epidemiology &amp; Dynamic Systems</h2>
+<p>I develop and analyze mathematical models of infectious-disease dynamics, including compartmental ordinary differential equation and discrete-time systems, transmission thresholds, numerical experiments, and climate-sensitive disease processes.</p>
+<p>Applications and prior interests include dengue, hand-foot-and-mouth disease, mpox, and other infectious-disease settings. Future directions include linking mechanistic models to observational data, testing when models remain reliable, and evaluating intervention strategies under uncertainty.</p>
+</div>
+<div class="rb-img">
+<img alt="Illustration of infectious disease modelling and epidemic dynamics" src="assets/images/epidemiology.png"/>
+</div>
+</div>
+<!-- THEME 2: ECOLOGY -->
+<div class="rb">
+<div class="rb-text">
+<span class="rb-tag" style="background:#2e7d32;">Theme 2</span>
+<h2>Mathematical Ecology, Climate &amp; Population Resilience</h2>
+<p>I investigate how environmental variation, harvesting, and biological processes affect populations and ecosystems. My work includes stage-structured ecological models, recruitment and survival processes, climate responses, and long-term population persistence, with Atlantic salmon as a major research application.</p>
+<p>An emerging direction is climate-sensitive ecology in Thailand, including fisheries, marine heatwaves, and ecological restoration. Potential projects will be developed only where appropriate population, environmental, and validation data are available.</p>
+</div>
+<div class="rb-img">
+<img alt="Illustration of ecological systems, climate change, and aquatic population dynamics" src="assets/images/ecology.jpg"/>
+</div>
+</div>
+<!-- THEME 3: AI & FORECASTING -->
+<div class="rb flip">
+<div class="rb-text">
+<span class="rb-tag" style="background:#1e4d8c;">Theme 3</span>
+<h2>Explainable AI, Formal Concept Analysis &amp; Model Reliability</h2>
+<p>I study interpretable machine learning, particularly the use of Formal Concept Analysis (FCA) and concept lattices to investigate relationships among data attributes and model predictions. Prior work explores interpretable ensemble-learning approaches, including boosting methods.</p>
+<p>A developing research interest is how explanations and predictive relationships change over time: concept drift, evolving data patterns, calibration, and detecting when a model should no longer be trusted without additional validation.</p>
+</div>
+<div class="rb-img">
+<img alt="Illustration of artificial intelligence, data science, and forecasting" src="assets/images/AIDscience.jpg"/>
+</div>
+</div>
+<!-- THEME 4: XAI -->
+<div class="rb">
+<div class="rb-text">
+<span class="rb-tag" style="background:#5c4b9e;">Theme 4</span>
+<h2>Statistical Learning, Forecasting &amp; Hybrid Modelling</h2>
+<p>I use statistical methods, time-series analysis, machine learning, and numerical computation to investigate health, agricultural, and environmental data. Applications include disease forecasting, climate-informed risk analysis, and data-derived ecological or social signals.</p>
+<p>I am interested in carefully validated hybrid approaches that connect mechanistic equations with data-driven models. Priorities include reproducible code, independent temporal testing, uncertainty assessment, and comparisons with appropriate baseline methods.</p>
+</div>
+<div class="rb-img">
+<img alt="Illustration of explainable AI and hybrid modelling" src="assets/images/xai-hybrid.png"/>
+</div>
+</div>
+<!-- THEME 5: DECISION MODELLING -->
+<div class="rb flip">
+<div class="rb-text">
+<span class="rb-tag" style="background:#1a6b5a;">Theme 5</span>
+<h2>Optimization, Network Resilience &amp; Decision Support</h2>
+<p>I am developing research interests in how mathematical models can help select actions, not only generate predictions. Methods of interest include optimization, network models, intervention evaluation, scenario analysis, and decisions under uncertainty.</p>
+<p>Potential applications include public-health resource allocation, accessibility of services during extreme weather, climate-risk responses, and ecological management. These are forward-looking research opportunities—not claims that the problems or methods are entirely new.</p>
+</div>
+<div class="rb-img">
+<img alt="Illustration of decision modelling, policy analysis, and intervention planning" src="assets/images/decision-modelling.png"/>
+</div>
+</div>
+<!-- PRESENTATIONS -->
+<div class="student-research-block"><h2>Research Opportunities for Students</h2>
+<p>I welcome conversations with students interested in mathematical modelling, data analysis, computation, and interdisciplinary research. Prior experience with all the methods below is not required; projects can be scoped to a student's current skills.</p>
+<div class="student-grid">
+<article><h3>Mathematical modelling</h3><p>Build and simulate a simple disease or ecological population model; investigate sensitivity to assumptions and parameter choices.</p></article>
+<article><h3>Data science &amp; forecasting</h3><p>Explore an open environmental or public-health dataset, compare interpretable baselines, and test results on later data.</p></article>
+<article><h3>Explainable AI &amp; FCA</h3><p>Use concept lattices to investigate patterns in a dataset and compare explanations from different learning methods.</p></article>
+<article><h3>Networks &amp; optimization</h3><p>Study a small network allocation or accessibility problem and evaluate simple, transparent decision rules.</p></article>
+</div>
+<p class="student-note"><strong>Useful starting skills:</strong> calculus, basic statistics, linear algebra, Python or R, and a willingness to learn. <strong>Possible outputs:</strong> a reproducible analysis, mathematical model, visualization, or research poster. Project availability depends on feasibility and supervision capacity.</p></div><div class="pres-block">
+<h2>Selected Presentations</h2>
+<ul class="affil-list">
+<li><strong>Invited (Virtual)</strong> — Universitas Terbuka, Indonesia: "A Mechanistic Stage-Structured Model..." (May 19, 2026)</li>
+<li><strong>Invited</strong> — Disease-Informed Modeling Lab, York University (November 4, 2025)</li>
+<li><strong>Invited</strong> — Grad Math &amp; Stats Seminar, York University (October 17, 2025)</li>
+<li><strong>Invited</strong> — LIAM Fall 2025 Seminar Series, York University (September 17, 2025)</li>
+<li><strong>Invited</strong> — Dahdaleh Institute Global Health Seminar Series, York University (January 10, 2024)</li>
+<li><strong>Presenter</strong> — 8th Sci-Tech Symposium, Prince of Songkla University, Thailand (May 11, 2018)</li>
+<li><strong>Presenter</strong> — International Seminar on Research Methods in Practice Workshop, Prince of Songkla University, Thailand (May 21, 2017)</li>
+</ul>
+</div>
+</div>
+</section>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-col">
+<strong>Sherif Eneye Shuaib</strong>
+<p>Lecturer in Mathematics &amp; Statistics<br/>Walailak University, Thailand</p>
+</div>
+<div class="footer-col">
+<strong>Quick Links</strong>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<strong>Contact</strong>
+<p>Walailak University<br/>Nakhon Si Thammarat, Thailand</p>
+<p>
+<a href="mailto:sherifeneyeshuaib@gmail.com" style="color:rgba(255,255,255,0.65);">
             sherifeneyeshuaib@gmail.com
           </a>
-        </p>
-      </div>
-
-    </div>
-
-    <div class="footer-copy">© 2025 Sherif Eneye Shuaib. All Rights Reserved.</div>
-  </footer>
-
+</p>
+</div>
+</div>
+<div class="footer-copy">© 2026 Sherif Eneye Shuaib. All Rights Reserved.</div>
+</footer>
 </body>
 </html>
