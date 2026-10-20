@@ -3,25 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Dr. Sherif Eneye Shuaib, Lecturer in Mathematics and Statistics at Walailak University. Research in mathematical modelling, epidemiology, ecology, explainable AI and data science." />
   <title>About — Sherif Eneye Shuaib</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .about-intro { font-size: 1.03rem; line-height: 1.8; }
+    .about-block p { line-height: 1.8; }
+    .about-block .research-note { margin-top: 1rem; padding: 1rem 1.2rem; background: #f4f1f9; border-left: 4px solid #3b0d6b; border-radius: 0 6px 6px 0; }
+    .interest-list li { margin-bottom: .35rem; }
+    .student-topics { margin: .5rem 0 0 1.2rem; padding: 0; }
+    .student-topics li { padding: .25rem 0; line-height: 1.6; }
+    .about-main a { color: #3b0d6b; }
+  </style>
 </head>
 <body>
-
   <div class="wu-stripe"></div>
-
   <header class="site-header">
     <div class="nav-inner">
       <a href="index.html" class="site-logo">
         <span class="logo-name">Sherif Eneye Shuaib</span>
         <span class="logo-sub">Applied Mathematics · Data Science</span>
       </a>
-      <nav>
+      <nav aria-label="Main navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="about.html" class="active" aria-current="page">About</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="research.html">Research</a></li>
           <li><a href="teaching.html">Teaching</a></li>
@@ -34,82 +42,88 @@
   <section class="page-hero">
     <div class="section-inner">
       <h1>About Me</h1>
+      <p class="page-hero-sub">Applied mathematics, explainable AI and data-driven research for biological and environmental systems.</p>
     </div>
   </section>
 
   <section class="section about-section">
     <div class="section-inner about-layout">
-
       <aside class="about-sidebar">
         <div class="sidebar-photo">
           <div class="photo-frame">
-            <img src="images/profile.jpg" alt="Sherif Eneye Shuaib" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')" />
+            <img src="images/profile.jpg" alt="Portrait of Sherif Eneye Shuaib" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')" />
             <div class="photo-initials">SES</div>
           </div>
         </div>
         <div class="sidebar-info">
           <h2 class="sidebar-name">Sherif Eneye Shuaib</h2>
-          <p class="sidebar-role">PhD Candidate</p>
-          <p class="sidebar-dept">Applied Mathematics</p>
-          <p class="sidebar-inst">York University, Canada</p>
+          <p class="sidebar-role">Lecturer in Mathematics and Statistics</p>
+          <p class="sidebar-dept">School of Science</p>
+          <p class="sidebar-inst">Walailak University, Thailand</p>
           <div class="sidebar-links">
             <a href="mailto:sherifeneyeshuaib@gmail.com">✉ Email</a>
-            <a href="https://scholar.google.com/citations?hl=en&user=ZMl4wygAAAAJ" target="_blank">Scholar</a>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=ZMl4wygAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
           </div>
+        </div>
       </aside>
 
       <main class="about-main">
-
         <section class="about-block">
           <h2>Professional Bio</h2>
-          <p>
-            I am an applied mathematician and data scientist with research interests spanning mathematical modelling (ecological and epidemiological), machine learning, and data analytics. My work combines mechanistic modelling, predictive analytics, and interpretable computational methods to address problems in health, agriculture, and ecological systems.
-          </p>
-          <p>
-            I have experience in teaching at both undergraduate and graduate levels, including co-instruction of graduate courses at the University of Toronto.
-          </p>
+          <p class="about-intro">I am a Lecturer in Mathematics and Statistics at Walailak University, Thailand, and an applied mathematician and data scientist. My research connects mathematical modelling, statistical and machine learning methods, and interpretable computational approaches to study complex biological, ecological and public-health systems.</p>
+          <p>My work spans mathematical epidemiology, population and ecological dynamics, climate-related risks, forecasting, and Formal Concept Analysis (FCA). I am particularly interested in combining mechanistic models—such as ordinary differential equations and discrete-time systems—with data-driven methods to understand system behaviour, evaluate uncertainty and support scientifically defensible decisions.</p>
+          <p>My ecological research has examined climate change, fisheries and stage-structured population dynamics, while my applied data-science work includes interpretable ensemble learning and climate-informed disease-risk analysis. I have teaching experience at undergraduate and graduate levels, including co-instruction of graduate courses at the University of Toronto.</p>
+          <p>Looking ahead, I aim to develop reusable mathematical and explainable-AI frameworks that remain reliable under changing conditions and can support practical decisions in public health, environmental management and other data-rich settings, with particular interest in applications relevant to Thailand.</p>
         </section>
 
         <section class="about-block">
-          <h2>Research Interests</h2>
+          <h2>Core Research Themes</h2>
           <ul class="interest-list">
-            <li>Mathematical Modelling</li>
-            <li>Machine Learning and Predictive Analytics</li>
-            <li>Epidemiological Modelling</li>
-            <li>Ecological Modelling</li>
+            <li><strong>Mathematical Epidemiology and Disease Dynamics</strong> — transmission models, outbreak processes, epidemic forecasting and intervention evaluation.</li>
+            <li><strong>Mathematical Ecology and Climate Change</strong> — population dynamics, stage-structured models, fisheries, environmental stress and resilience.</li>
+            <li><strong>Data Science, Machine Learning and Forecasting</strong> — statistical learning, time-series analysis and scientific prediction from real-world datasets.</li>
+            <li><strong>Explainable AI and Formal Concept Analysis</strong> — concept lattices, interpretable machine learning and hybrid mechanistic–data-driven frameworks.</li>
+            <li><strong>Optimization, Model Reliability and Decision Support</strong> — an emerging direction exploring uncertainty, model robustness, network methods and resource-allocation problems.</li>
           </ul>
+          <p class="research-note"><strong>Research goal:</strong> Develop mathematically sound, transparent and reproducible methods that connect scientific understanding to decisions with practical value. <a href="research.html">Explore the research themes →</a></p>
+        </section>
+
+        <section class="about-block">
+          <h2>Emerging Research Directions</h2>
+          <p>My developing research agenda explores how to recognize when predictive models become unreliable as biological or environmental conditions change; how to integrate mechanistic modelling and explainable AI; and how mathematical optimization might improve responses to climate-related health and ecological risks. These are areas for investigation and collaboration, not claims of completed results.</p>
+        </section>
+
+        <section class="about-block">
+          <h2>Student Research and Collaboration</h2>
+          <p>I welcome discussions with students interested in learning how mathematics and computational tools can address research questions using genuine data. Potential introductory areas include:</p>
+          <ul class="student-topics">
+            <li>Analysing climate, environmental or public-health time series in Python or R.</li>
+            <li>Exploring discrete-time population or compartmental disease models.</li>
+            <li>Comparing forecasting approaches and evaluating model errors.</li>
+            <li>Visualizing and interpreting patterns using Formal Concept Analysis.</li>
+            <li>Studying simple resource-allocation or network-optimization problems.</li>
+          </ul>
+          <p>Projects can be scoped to students' mathematical and programming backgrounds, with attention to clear research questions, sound methods and reproducible analysis.</p>
         </section>
 
         <section class="about-block">
           <h2>Education</h2>
           <div class="edu-list">
             <div class="edu-item">
-              <div class="edu-year">Expected August 2026</div>
-              <div class="edu-detail">
-                <strong>PhD in Applied Mathematics</strong> (Coursework + Research)<br>
-                York University, Toronto, Canada<br>
-              </div>
+              <div class="edu-year">2026</div>
+              <div class="edu-detail"><strong>PhD in Applied Mathematics</strong><br>York University, Toronto, Canada</div>
             </div>
             <div class="edu-item">
-              <div class="edu-year">May 2026</div>
-              <div class="edu-detail">
-                <strong>PhD in Data Science</strong> (Research-Based)<br>
-                Prince of Songkla University, Songkla, Thailand<br>
-              </div>
+              <div class="edu-year">2026</div>
+              <div class="edu-detail"><strong>PhD in Data Science</strong><br>Prince of Songkla University, Songkhla, Thailand</div>
             </div>
             <div class="edu-item">
               <div class="edu-year">January 2020</div>
-              <div class="edu-detail">
-                <strong>MSc in Applied Mathematics</strong><br>
-                Prince of Songkla University, Thailand<br>         
-              </div>
+              <div class="edu-detail"><strong>MSc in Applied Mathematics</strong><br>Prince of Songkla University, Thailand</div>
             </div>
             <div class="edu-item">
               <div class="edu-year">May 2014</div>
-              <div class="edu-detail">
-                <strong>B.Tech in Mathematics and Computer Science</strong><br>
-                Federal University of Technology, Minna, Nigeria<br>               
-              </div>
+              <div class="edu-detail"><strong>B.Tech in Mathematics and Computer Science</strong><br>Federal University of Technology, Minna, Nigeria</div>
             </div>
           </div>
         </section>
@@ -117,22 +131,15 @@
         <section class="about-block">
           <h2>Technical Skills</h2>
           <div class="skills-grid">
-            <div class="skill-group">
-              <strong>Programming</strong>
-              <p>Python · R (RStudio) · MATLAB/Octave · Maple</p>
-            </div>
-            <div class="skill-group">
-              <strong>Typesetting</strong>
-              <p>LaTeX</p>
-            </div>
-            <div class="skill-group">
-              <strong>Modelling</strong>
-              <p>ODE systems · Compartmental models · Stage-structured models · XGBoost · Gradient Boosting</p>
-            </div>
+            <div class="skill-group"><strong>Programming and Computing</strong><p>Python · R / RStudio · MATLAB / Octave · Maple</p></div>
+            <div class="skill-group"><strong>Mathematical and Computational Modelling</strong><p>Ordinary differential equations · Discrete-time models · Compartmental models · Stage-structured population models · Numerical simulation</p></div>
+            <div class="skill-group"><strong>Data Science and Interpretation</strong><p>Statistical modelling · Time-series analysis · XGBoost · Gradient Boosting · Formal Concept Analysis · Explainable AI</p></div>
+            <div class="skill-group"><strong>Scientific Communication</strong><p>LaTeX · Reproducible computational workflows · Scientific visualization</p></div>
+          </div>
         </section>
 
         <section class="about-block">
-          <h2>Scholarships & Awards</h2>
+          <h2>Scholarships &amp; Awards</h2>
           <ul class="award-list">
             <li>Academic Excellence Fund: Publication and Other Scholarly Activities — York University (2024)</li>
             <li>Academic Excellence Fund: Publication and Other Scholarly Activities — York University (2023)</li>
@@ -143,7 +150,6 @@
             <li>Certificate of Commendation — FUT Minna (2013)</li>
           </ul>
         </section>
-
       </main>
     </div>
   </section>
@@ -152,7 +158,7 @@
     <div class="footer-inner">
       <div class="footer-col">
         <strong>Sherif Eneye Shuaib</strong>
-        <p>PhD Candidate · Applied Mathematics<br>York University, Toronto, Canada</p>
+        <p>Lecturer in Mathematics and Statistics<br>School of Science, Walailak University, Thailand</p>
       </div>
       <div class="footer-col">
         <strong>Quick Links</strong>
@@ -167,12 +173,11 @@
       </div>
       <div class="footer-col">
         <strong>Contact</strong>
-        <p>Department of Mathematics and Statistics, York University<br>Toronto, Ontario, M3J 1L1, Canada</p>
+        <p>School of Science, Walailak University<br>Nakhon Si Thammarat, Thailand</p>
         <p><a href="mailto:sherifeneyeshuaib@gmail.com" style="color:rgba(255,255,255,0.65);">sherifeneyeshuaib@gmail.com</a></p>
       </div>
     </div>
-    <div class="footer-copy">© 2025 Sherif Eneye Shuaib. All Rights Reserved.</div>
+    <div class="footer-copy">© 2026 Sherif Eneye Shuaib. All Rights Reserved.</div>
   </footer>
-
 </body>
 </html>
