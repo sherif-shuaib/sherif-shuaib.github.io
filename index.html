@@ -1,16 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="MAIDES Lab — Mathematics, AI, Disease, Ecology, and Systems. Led by Sherif Eneye Shuaib." />
-  <title>Sherif Eneye Shuaib — MAIDES Lab</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="MAIDES Lab research themes: mathematical epidemiology, ecological dynamics, explainable AI, data science, and decision modelling. Research interests and opportunities for students." name="description"/>
+<title>MAIDES Lab | Sherif Eneye Shuaib — Research &amp; Opportunities</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet">
+<style>
     /* ── BASE OVERRIDES for this page ── */
     *, *::before, *::after { box-sizing: border-box; }
 
@@ -339,139 +338,129 @@
       .about-strip { grid-template-columns: 1fr; }
       .maides-wordmark .letter { font-size: 60px; }
     }
-  </style>
-</head>
+  
+/* Future directions and student projects */
+.research-intro{max-width:850px;line-height:1.8;color:#4b5563;margin:1rem 0 0}
+.research-note{font:0.83rem/1.65 Inter,sans-serif;color:#697386;margin-top:0.8rem}
+.future-grid,.student-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem;margin-top:1.5rem}
+.future-card,.student-card{background:white;border:1px solid #e5e7ef;border-radius:10px;padding:1.4rem;min-width:0}
+.future-card{border-top:4px solid #3b0d6b}
+.future-num{font:700 .76rem Inter,sans-serif;color:#6d549e;letter-spacing:.12em}
+.future-card h3,.student-card h3{font:600 1.24rem/1.3 'Crimson Pro',Georgia,serif;color:#1a1a2e;margin:.45rem 0 .55rem}
+.future-card p,.student-card p{font:.89rem/1.7 Inter,sans-serif;color:#4b5563;margin:0}
+.future-methods{display:block;font:.72rem/1.5 Inter,sans-serif;color:#5c4b9e;margin-top:1rem;font-weight:600}
+.student-card{border-left:4px solid #1a6b5a;background:#fbfcfe}
+.student-note{margin-top:1.2rem;font:.88rem/1.8 Inter,sans-serif;color:#4b5563}
+@media(max-width:700px){.future-grid,.student-grid{grid-template-columns:1fr}}
+</style>
+</link></head>
 <body>
-
-  <div class="wu-stripe"></div>
-
-  <header class="site-header">
-    <div class="nav-inner">
-      <a href="index.html" class="site-logo">
-        <span class="logo-name">Sherif Eneye Shuaib</span>
-        <span class="logo-sub">PI · MAIDES LAB</span>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- ══ HERO ══ -->
-  <section class="hero">
-    <div class="hero-inner">
-
-      <!-- Left: text -->
-      <div class="hero-text">
-        <h1>Modelling systems.<br>Explaining decisions.</h1>
-        <p class="hero-desc">
-          Applied mathematician and data scientist working at the intersection of mechanistic modelling and machine learning — developing rigorous, interpretable analytical systems for health and ecological risk.
-        </p>
-        <div class="hero-links">
-          <a href="research.html" class="btn-hero-primary">Research</a>
-          <a href="publications.html" class="btn-hero-outline">Publications</a>
-        </div>
-      </div>
-
-      <!-- Right: MAIDES wordmark -->
-      <div class="wordmark-wrap">
-        <div class="maides-wordmark">
-          <span class="letter ltr-M">M</span>
-          <span class="letter ltr-A">A</span>
-          <span class="letter ltr-I">I</span>
-          <span class="letter ltr-D">D</span>
-          <span class="letter ltr-E">E</span>
-          <span class="letter ltr-S">S</span>
-        </div>
-
-        <div class="wordmark-bar" style="width:100%;">
-          <span class="bar-blue"></span>
-          <span class="bar-red"></span>
-          <span class="bar-lred"></span>
-          <span class="bar-teal"></span>
-          <span class="bar-green"></span>
-        </div>
-
-        <div class="wordmark-sub" style="flex-wrap:wrap; row-gap:0.2rem; margin-top:0.8rem;">
-          <span class="wordmark-sub-word" style="color:#60a5fa;">Mathematics</span>
-          <span class="wordmark-sub-sep">·</span>
-          <span class="wordmark-sub-word" style="color:#f87171;">AI</span>
-          <span class="wordmark-sub-sep">·</span>
-          <span class="wordmark-sub-word" style="color:#fca5a5;">Disease</span>
-          <span class="wordmark-sub-sep">·</span>
-          <span class="wordmark-sub-word" style="color:#6ee7b7;">Ecology</span>
-          <span class="wordmark-sub-sep">·</span>
-          <span class="wordmark-sub-word" style="color:#34d399;">Systems</span>
-        </div>
-
-        <p class="wordmark-tagline">MAIDES Lab · Data-Driven Mathematical Modelling &amp; Decision Intelligence</p>
-
-        <svg width="100%" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg"
-             style="margin-top:1rem; opacity:0.45; max-width:340px;">
-          <circle cx="20"  cy="30" r="3" fill="#60a5fa"/>
-          <circle cx="80"  cy="15" r="3" fill="#f87171"/>
-          <circle cx="80"  cy="45" r="2" fill="#fca5a5"/>
-          <circle cx="160" cy="30" r="4" fill="#ffffff"/>
-          <circle cx="240" cy="12" r="3" fill="#6ee7b7"/>
-          <circle cx="240" cy="48" r="2" fill="#34d399"/>
-          <circle cx="300" cy="30" r="3" fill="#6ee7b7"/>
-
-          <line x1="20"  y1="30" x2="80"  y2="15" stroke="#60a5fa" stroke-width="0.8"/>
-          <line x1="20"  y1="30" x2="80"  y2="45" stroke="#60a5fa" stroke-width="0.8"/>
-          <line x1="80"  y1="15" x2="160" y2="30" stroke="#f87171" stroke-width="0.8"/>
-          <line x1="80"  y1="45" x2="160" y2="30" stroke="#fca5a5" stroke-width="0.8"/>
-          <line x1="160" y1="30" x2="240" y2="12" stroke="#6ee7b7" stroke-width="0.8"/>
-          <line x1="160" y1="30" x2="240" y2="48" stroke="#34d399" stroke-width="0.8"/>
-          <line x1="240" y1="12" x2="300" y2="30" stroke="#6ee7b7" stroke-width="0.8"/>
-          <line x1="240" y1="48" x2="300" y2="30" stroke="#34d399" stroke-width="0.8"/>
-
-          <text x="20"  y="10" font-family="Inter,sans-serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">Math</text>
-          <text x="80"  y="8"  font-family="Inter,sans-serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">AI</text>
-          <text x="160" y="18" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.7)" text-anchor="middle" font-weight="500">MAIDES</text>
-          <text x="240" y="6"  font-family="Inter,sans-serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">Ecology</text>
-          <text x="300" y="20" font-family="Inter,sans-serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">Systems</text>
-        </svg>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══ ABOUT ══ -->
-  <section class="section">
-    <div class="section-inner">
-      <span class="section-eyebrow">About the Lab</span>
-      <h2 class="section-title">MAIDES Lab</h2>
-
-      <div class="about-strip" style="margin-top:1.4rem;">
-        <div class="about-text">
-          <p>
-            The <strong>MAIDES Lab</strong> — <strong>M</strong>athematics, <strong>A</strong>I, <strong>D</strong>isease, <strong>E</strong>cology, and <strong>S</strong>ystems — is dedicated to developing rigorous, interpretable, and practical analytical systems for health and ecological risk. The lab sits at the intersection of applied mathematics, epidemiology, ecology, and data science.
-          </p>
-          <p>
-            The central question driving all work here: <em>how can mathematically rigorous and data-informed models improve our understanding of complex biological systems, and support better decisions under uncertainty?</em> Models are not abstract endpoints — they are tools for integrating evidence, testing hypotheses, quantifying uncertainty, evaluating interventions, and generating actionable insight.
-          </p>
-          <p>
-            The lab operates through a structured five-stage pipeline: data integration → mechanistic modelling → statistical inference and machine learning → decision analysis and optimisation → translation into forecasting tools and policy-relevant outputs.
-          </p>
-        </div>
-
-        <div class="about-stats">
-          <div class="research-net-wrap">
-            <span class="research-net-title">Research Connections</span>
-            <canvas id="researchNet" width="620" height="560"></canvas>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script>
+<div class="wu-stripe"></div>
+<header class="site-header">
+<div class="nav-inner">
+<a class="site-logo" href="index.html">
+<span class="logo-name">Sherif Eneye Shuaib</span>
+<span class="logo-sub">PI · MAIDES LAB</span>
+</a>
+<nav>
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<!-- ══ HERO ══ -->
+<section class="hero">
+<div class="hero-inner">
+<!-- Left: text -->
+<div class="hero-text">
+<h1>Understanding systems.<br/>Improving decisions.</h1>
+<p class="hero-desc">Research in applied mathematics, mathematical ecology and epidemiology, data science, and explainable AI — connecting rigorous methods with important challenges in health, climate, and the environment.</p>
+<div class="hero-links">
+<a class="btn-hero-primary" href="research.html">Research</a>
+<a class="btn-hero-outline" href="publications.html">Publications</a>
+</div>
+</div>
+<!-- Right: MAIDES wordmark -->
+<div class="wordmark-wrap">
+<div class="maides-wordmark">
+<span class="letter ltr-M">M</span>
+<span class="letter ltr-A">A</span>
+<span class="letter ltr-I">I</span>
+<span class="letter ltr-D">D</span>
+<span class="letter ltr-E">E</span>
+<span class="letter ltr-S">S</span>
+</div>
+<div class="wordmark-bar" style="width:100%;">
+<span class="bar-blue"></span>
+<span class="bar-red"></span>
+<span class="bar-lred"></span>
+<span class="bar-teal"></span>
+<span class="bar-green"></span>
+</div>
+<div class="wordmark-sub" style="flex-wrap:wrap; row-gap:0.2rem; margin-top:0.8rem;">
+<span class="wordmark-sub-word" style="color:#60a5fa;">Mathematics</span>
+<span class="wordmark-sub-sep">·</span>
+<span class="wordmark-sub-word" style="color:#f87171;">AI</span>
+<span class="wordmark-sub-sep">·</span>
+<span class="wordmark-sub-word" style="color:#fca5a5;">Disease</span>
+<span class="wordmark-sub-sep">·</span>
+<span class="wordmark-sub-word" style="color:#6ee7b7;">Ecology</span>
+<span class="wordmark-sub-sep">·</span>
+<span class="wordmark-sub-word" style="color:#34d399;">Systems</span>
+</div>
+<p class="wordmark-tagline">MAIDES Lab · Data-Driven Mathematical Modelling &amp; Decision Intelligence</p>
+<svg style="margin-top:1rem; opacity:0.45; max-width:340px;" viewbox="0 0 320 60" width="100%" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="30" fill="#60a5fa" r="3"></circle>
+<circle cx="80" cy="15" fill="#f87171" r="3"></circle>
+<circle cx="80" cy="45" fill="#fca5a5" r="2"></circle>
+<circle cx="160" cy="30" fill="#ffffff" r="4"></circle>
+<circle cx="240" cy="12" fill="#6ee7b7" r="3"></circle>
+<circle cx="240" cy="48" fill="#34d399" r="2"></circle>
+<circle cx="300" cy="30" fill="#6ee7b7" r="3"></circle>
+<line stroke="#60a5fa" stroke-width="0.8" x1="20" x2="80" y1="30" y2="15"></line>
+<line stroke="#60a5fa" stroke-width="0.8" x1="20" x2="80" y1="30" y2="45"></line>
+<line stroke="#f87171" stroke-width="0.8" x1="80" x2="160" y1="15" y2="30"></line>
+<line stroke="#fca5a5" stroke-width="0.8" x1="80" x2="160" y1="45" y2="30"></line>
+<line stroke="#6ee7b7" stroke-width="0.8" x1="160" x2="240" y1="30" y2="12"></line>
+<line stroke="#34d399" stroke-width="0.8" x1="160" x2="240" y1="30" y2="48"></line>
+<line stroke="#6ee7b7" stroke-width="0.8" x1="240" x2="300" y1="12" y2="30"></line>
+<line stroke="#34d399" stroke-width="0.8" x1="240" x2="300" y1="48" y2="30"></line>
+<text fill="rgba(255,255,255,0.5)" font-family="Inter,sans-serif" font-size="8" text-anchor="middle" x="20" y="10">Math</text>
+<text fill="rgba(255,255,255,0.5)" font-family="Inter,sans-serif" font-size="8" text-anchor="middle" x="80" y="8">AI</text>
+<text fill="rgba(255,255,255,0.7)" font-family="Inter,sans-serif" font-size="9" font-weight="500" text-anchor="middle" x="160" y="18">MAIDES</text>
+<text fill="rgba(255,255,255,0.5)" font-family="Inter,sans-serif" font-size="8" text-anchor="middle" x="240" y="6">Ecology</text>
+<text fill="rgba(255,255,255,0.5)" font-family="Inter,sans-serif" font-size="8" text-anchor="middle" x="300" y="20">Systems</text>
+</svg>
+</div>
+</div>
+</section>
+<!-- ══ ABOUT ══ -->
+<section class="section">
+<div class="section-inner">
+<span class="section-eyebrow">About the Lab</span>
+<h2 class="section-title">MAIDES Lab</h2>
+<div class="about-strip" style="margin-top:1.4rem;">
+<div class="about-text">
+<p>The <strong>MAIDES Lab</strong> — <strong>M</strong>athematics, <strong>A</strong>I, <strong>D</strong>isease, <strong>E</strong>cology, and <strong>S</strong>ystems — brings together research interests in mathematical modelling, epidemiology, ecological dynamics, data analytics, and explainable machine learning. Our work builds on existing mathematical and computational research while exploring important questions in biological and environmental systems.</p>
+<p>Our guiding question is: <em>How can we combine mathematical mechanisms, real-world data, and interpretable computational methods to understand changing systems and support more reliable decisions?</em> We value reproducibility, careful validation, transparent assumptions, and meaningful extensions of prior research.</p>
+<p>A typical project moves from an established research question and a verified gap to suitable data, mathematical or statistical modelling, careful validation, and evidence-based interpretation. Optimization or decision-support tools are considered when the research and available data justify them.</p>
+</div>
+<div class="about-stats">
+<div class="research-net-wrap">
+<span class="research-net-title">Research Connections</span>
+<canvas height="560" id="researchNet" width="620"></canvas>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script>
   (function(){
     const canvas = document.getElementById('researchNet');
     const ctx = canvas.getContext('2d');
@@ -573,183 +562,173 @@
     draw();
   })();
   </script>
-
 <!-- ══ PIPELINE ══ -->
 <section class="section pipeline-section">
-  <div class="section-inner">
-    <span class="section-eyebrow">Research methodology</span>
-    <h2 class="section-title">Five-Stage Pipeline</h2>
-
-    <svg width="100%" viewBox="0 0 860 100" role="img" xmlns="http://www.w3.org/2000/svg"
-         style="display:block; margin-top:1.4rem;">
-      <title>MAIDES five-stage research pipeline</title>
-
-      <defs>
-        <marker id="parr" viewBox="0 0 12 12" refX="10" refY="6"
-                markerWidth="9" markerHeight="9" orient="auto">
-          <path d="M2 2L10 6L2 10"
-                fill="none"
-                stroke="#7b8190"
-                stroke-width="2.2"
-                stroke-linecap="round"
-                stroke-linejoin="round"/>
-        </marker>
-      </defs>
-
-      <!-- Boxes -->
-      <rect x="0"   y="10" width="150" height="72" rx="7" fill="#1e4d8c"/>
-      <rect x="177" y="10" width="150" height="72" rx="7" fill="#1a6b5a"/>
-      <rect x="354" y="10" width="150" height="72" rx="7" fill="#5c4b9e"/>
-      <rect x="531" y="10" width="150" height="72" rx="7" fill="#b83030"/>
-      <rect x="708" y="10" width="150" height="72" rx="7" fill="#2e7d32"/>
-
-      <!-- Numbers -->
-      <text x="75"  y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.60)" font-weight="700" letter-spacing="0.08em">01</text>
-      <text x="252" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.60)" font-weight="700" letter-spacing="0.08em">02</text>
-      <text x="429" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.60)" font-weight="700" letter-spacing="0.08em">03</text>
-      <text x="606" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.60)" font-weight="700" letter-spacing="0.08em">04</text>
-      <text x="783" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="rgba(255,255,255,0.60)" font-weight="700" letter-spacing="0.08em">05</text>
-
-      <!-- One-line labels -->
-      <text x="75"  y="52" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#fff" font-weight="700" dominant-baseline="central">Data Integration</text>
-      <text x="252" y="52" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#fff" font-weight="700" dominant-baseline="central">Mechanistic Modelling</text>
-      <text x="429" y="52" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#fff" font-weight="700" dominant-baseline="central">Inference &amp; Learning</text>
-      <text x="606" y="52" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#fff" font-weight="700" dominant-baseline="central">Decision Analysis</text>
-      <text x="783" y="52" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#fff" font-weight="700" dominant-baseline="central">Translation &amp; Use</text>
-
-      <!-- Clear arrows -->
-      <line x1="150" y1="46" x2="175" y2="46" stroke="#7b8190" stroke-width="2" marker-end="url(#parr)" opacity="0.95"/>
-      <line x1="327" y1="46" x2="352" y2="46" stroke="#7b8190" stroke-width="2" marker-end="url(#parr)" opacity="0.95"/>
-      <line x1="504" y1="46" x2="529" y2="46" stroke="#7b8190" stroke-width="2" marker-end="url(#parr)" opacity="0.95"/>
-      <line x1="681" y1="46" x2="706" y2="46" stroke="#7b8190" stroke-width="2" marker-end="url(#parr)" opacity="0.95"/>
-    </svg>
-  </div>
+<div class="section-inner">
+<span class="section-eyebrow">Illustrative research workflow</span>
+<h2 class="section-title">From Research Question to Useful Evidence</h2>
+<svg role="img" style="display:block; margin-top:1.4rem;" viewbox="0 0 860 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+<title>MAIDES five-stage research pipeline</title>
+<defs>
+<marker id="parr" markerheight="9" markerwidth="9" orient="auto" refx="10" refy="6" viewbox="0 0 12 12">
+<path d="M2 2L10 6L2 10" fill="none" stroke="#7b8190" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
+</marker>
+</defs>
+<!-- Boxes -->
+<rect fill="#1e4d8c" height="72" rx="7" width="150" x="0" y="10"></rect>
+<rect fill="#1a6b5a" height="72" rx="7" width="150" x="177" y="10"></rect>
+<rect fill="#5c4b9e" height="72" rx="7" width="150" x="354" y="10"></rect>
+<rect fill="#b83030" height="72" rx="7" width="150" x="531" y="10"></rect>
+<rect fill="#2e7d32" height="72" rx="7" width="150" x="708" y="10"></rect>
+<!-- Numbers -->
+<text fill="rgba(255,255,255,0.60)" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="0.08em" text-anchor="middle" x="75" y="24">01</text>
+<text fill="rgba(255,255,255,0.60)" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="0.08em" text-anchor="middle" x="252" y="24">02</text>
+<text fill="rgba(255,255,255,0.60)" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="0.08em" text-anchor="middle" x="429" y="24">03</text>
+<text fill="rgba(255,255,255,0.60)" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="0.08em" text-anchor="middle" x="606" y="24">04</text>
+<text fill="rgba(255,255,255,0.60)" font-family="Inter,sans-serif" font-size="9" font-weight="700" letter-spacing="0.08em" text-anchor="middle" x="783" y="24">05</text>
+<!-- One-line labels -->
+<text dominant-baseline="central" fill="#fff" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="75" y="52">Data Integration</text>
+<text dominant-baseline="central" fill="#fff" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="252" y="52">Mechanistic Modelling</text>
+<text dominant-baseline="central" fill="#fff" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="429" y="52">Inference &amp; Learning</text>
+<text dominant-baseline="central" fill="#fff" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="606" y="52">Decision Analysis</text>
+<text dominant-baseline="central" fill="#fff" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="783" y="52">Translation &amp; Use</text>
+<!-- Clear arrows -->
+<line marker-end="url(#parr)" opacity="0.95" stroke="#7b8190" stroke-width="2" x1="150" x2="175" y1="46" y2="46"></line>
+<line marker-end="url(#parr)" opacity="0.95" stroke="#7b8190" stroke-width="2" x1="327" x2="352" y1="46" y2="46"></line>
+<line marker-end="url(#parr)" opacity="0.95" stroke="#7b8190" stroke-width="2" x1="504" x2="529" y1="46" y2="46"></line>
+<line marker-end="url(#parr)" opacity="0.95" stroke="#7b8190" stroke-width="2" x1="681" x2="706" y1="46" y2="46"></line>
+</svg>
+<p class="research-note">The stages are adaptable rather than mandatory: not every project requires machine learning, optimization, or a deployable tool. Scientific validity and reproducibility come first.</p></div>
 </section>
-  
 <!-- ══ RESEARCH THEMES ══ -->
 <section class="section">
-  <div class="section-inner">
-    <span class="section-eyebrow">Core research themes</span>
-    <h2 class="section-title">What We Work On</h2>
-
-    <div class="theme-grid">
-
-      <div class="theme-card tc-blue">
-        <h3>Mathematical Epidemiology &amp; Disease Modelling</h3>
-        <p>
-          Developing mechanistic and data-informed models to understand disease transmission,
-          outbreak dynamics, public health risk, and epidemic preparedness.
-        </p>
-      </div>
-
-      <div class="theme-card tc-teal">
-        <h3>Ecological and Climate-Health Systems</h3>
-        <p>
-          Studying how climate, environmental change, and ecological interactions shape
-          population dynamics, biodiversity, food systems, and health risks.
-        </p>
-      </div>
-
-      <div class="theme-card tc-red">
-        <h3>AI, Data Science &amp; Forecasting</h3>
-        <p>
-          Using machine learning, statistical modelling, and time-series methods to generate
-          forecasts, detect patterns, and support evidence-based decision-making.
-        </p>
-      </div>
-
-
-      <div class="theme-card tc-green">
-        <h3>Explainable and Hybrid Modelling Frameworks</h3>
-        <p>
-          Building interpretable modelling approaches that combine mechanistic structure,
-          machine learning, and explainable AI for transparent and practical insight.
-        </p>
-      </div>
-
-    </div>
-
-    <a href="research.html" class="btn-outline-dark">Full Research Overview →</a>
-  </div>
+<div class="section-inner">
+<span class="section-eyebrow">Core research themes</span>
+<h2 class="section-title">Five Connected Research Themes</h2>
+<div class="theme-grid">
+<div class="theme-card tc-blue">
+<h3>Mathematical Epidemiology &amp; Disease Dynamics</h3>
+<p>Mechanistic ODE and discrete-time models of disease transmission, thresholds, intervention strategies, and epidemiological uncertainty. Applications include dengue and other infectious diseases.</p>
+</div>
+<div class="theme-card tc-teal">
+<h3>Mathematical Ecology &amp; Climate Change</h3>
+<p>Population and stage-structured modelling, fisheries dynamics, ecological persistence, climate impacts, and the response of biological systems to environmental change.</p>
+</div>
+<div class="theme-card tc-red">
+<h3>Data Science, AI &amp; Forecasting</h3>
+<p>Time-series analysis, statistical learning, machine learning, temporal validation, and forecasting using environmental, epidemiological, agricultural, and ecological datasets.</p>
+</div>
+<div class="theme-card tc-green">
+<h3>Explainable AI &amp; Formal Concept Analysis</h3>
+<p>Interpretable predictive models, FCA and concept lattices, explainable ensemble methods, hybrid mechanistic–AI approaches, and investigation of model reliability under changing conditions.</p>
+</div>
+<div class="theme-card tc-purple"><h3>Optimization, Model Reliability &amp; Decision Support</h3><p>An emerging research direction: mathematical optimization, network resilience, uncertainty-aware decisions, and tools connecting validated predictions with practical actions in health and environmental management.</p></div></div>
+<a class="btn-outline-dark" href="research.html">Full Research Overview →</a>
+</div>
+</section>
+<section class="section bg-subtle" id="future-directions">
+<div class="section-inner">
+<span class="section-eyebrow">Looking ahead · 2027–2031</span>
+<h2 class="section-title">Questions We Want to Investigate</h2>
+<p class="research-intro">These are prospective research directions, not claims that the gaps have already been established. Each requires a focused review of existing literature, feasibility assessment, and validation before becoming a research project.</p>
+<div class="future-grid">
+<article class="future-card"><span class="future-num">01</span><h3>When should a model stop trusting its forecasts?</h3><p>Explore whether interpretable structural changes, including FCA-based representations, can help detect changes in prediction reliability and guide model reassessment.</p><span class="future-methods">FCA · time series · concept drift · uncertainty</span></article>
+<article class="future-card"><span class="future-num">02</span><h3>How resilient is healthcare access during extreme weather?</h3><p>Investigate network-based measures of access disruption and possible interventions during flooding or other climate-related disruptions in Southern Thailand.</p><span class="future-methods">Graph theory · optimization · spatial data</span></article>
+<article class="future-card"><span class="future-num">03</span><h3>Which heat-protection actions are most effective?</h3><p>Study uncertainty-aware allocation of limited heat-protection resources while considering feasibility and fairness across communities.</p><span class="future-methods">Mathematical optimization · climate data</span></article>
+<article class="future-card"><span class="future-num">04</span><h3>What makes ecological recovery last?</h3><p>Develop and test stage-structured or discrete-time models of ecological persistence and climate stress, including possible applications to fisheries and habitat restoration.</p><span class="future-methods">Population dynamics · ODEs · stochastic models</span></article>
+</div>
+</div>
+</section>
+<section class="section" id="student-opportunities">
+<div class="section-inner">
+<span class="section-eyebrow">For undergraduate students</span>
+<h2 class="section-title">Explore Research With Us</h2>
+<p class="research-intro">Third-year students interested in applied mathematics, statistics, programming, or real-world datasets are welcome to discuss possible supervised projects. Prior research experience is not required; topics and availability depend on preparation, scope, and supervision capacity.</p>
+<div class="student-grid">
+<div class="student-card"><h3>Mathematical modelling</h3><p>Simple ODE or difference-equation models, simulations, sensitivity analysis, and interpretation of biological dynamics.</p></div>
+<div class="student-card"><h3>Data analysis &amp; forecasting</h3><p>Explore public datasets, visualize patterns, compare baseline forecasting models, and assess out-of-sample performance.</p></div>
+<div class="student-card"><h3>Explainable AI &amp; FCA</h3><p>Study concept lattices, simple interpretable classifiers, and how model explanations relate to data.</p></div>
+<div class="student-card"><h3>Climate &amp; environmental systems</h3><p>Investigate climate indicators, fisheries, ecological patterns, or local environmental questions using accessible data.</p></div>
+</div>
+<p class="student-note"><strong>Useful starting skills:</strong> introductory calculus, statistics, algebra, or Python. You do not need to know all of these before making contact.</p>
+<a class="btn-outline-dark" href="contact.html">Discuss a Student Project →</a>
+</div>
 </section>
 
-  <!-- ══ PUBLICATIONS ══ -->
-  <section class="section bg-subtle">
-    <div class="section-inner">
-      <span class="section-eyebrow">Recent work</span>
-      <h2 class="section-title">Selected Publications</h2>
-      <ul class="pub-list" style="margin-top:1.2rem;">
-        <li class="pub-item">
-          <span class="pub-journal">Ecological Modelling · Q1</span>
-          <p class="pub-title">A mechanistic stage-structured model for estimating maturation, mortality, and recruitment parameters of three economically significant fish species in Canadian waters</p>
-          <p class="pub-authors">Shuaib SE, Rutayisire G, Han Q, Veprauskas A, &amp; Kong JD. (2025)</p>
-        </li>
-        <li class="pub-item">
-          <span class="pub-journal">Intelligent Systems with Applications · Q1</span>
-          <p class="pub-title">Formal concept views for explainable boosting: A lattice-theoretic framework for XGBoost and Gradient Boosting Models</p>
-          <p class="pub-authors">Shuaib SE, Riyapan P, &amp; Muangprathub J. (2025)</p>
-        </li>
-        <li class="pub-item">
-          <span class="pub-journal">Environmental Advances · Q1</span>
-          <p class="pub-title">Predicting adaptations of fish and fishing communities to rapid climate velocities in Canadian waters: A systematic review</p>
-          <p class="pub-authors">Fatima N, Shuaib SE, &amp; Kong JD. (2023)</p>
-        </li>
-      </ul>
-      <a href="publications.html" class="btn-outline-dark">View All Other Publications →</a>
-    </div>
-  </section>
-
-  <!-- ══ NEWS ══ -->
-  <section class="section">
-    <div class="section-inner">
-      <span class="section-eyebrow">Latest</span>
-      <h2 class="section-title">News &amp; Updates</h2>
-      <div class="news-grid">
-        <div class="news-item">
-          <span class="news-date">May 2026</span>
-          <p>Invited virtual talk at Universitas Terbuka, Indonesia — "A Mechanistic Stage-Structured Model for Estimating Maturation, Mortality, and Recruitment Parameters."</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2025–2026</span>
-          <p>Co-instructor for CHL8010H (Mathematical Epidemiology) and HAD7001H (Introduction to Data Science) at the University of Toronto.</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2025</span>
-          <p>New paper in <em>Vaccines</em> (Q1): COVID-19 vaccine timing and co-administration with influenza vaccines — systematic review with international comparisons.</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2024</span>
-          <p>York University Academic Excellence Fund for Publication and Other Scholarly Activities (2023 &amp; 2024).</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-col">
-        <strong>Sherif Eneye Shuaib</strong>
-        <p>PhD Candidate · Applied Mathematics<br>York University, Toronto, Canada</p>
-      </div>
-      <div class="footer-col">
-        <strong>Quick Links</strong>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <strong>Contact</strong>
-        <p>Department of Mathematics and Statistics, York University<br>Toronto, Ontario, M3J 1L1, Canada</p>
-        <p><a href="mailto:sherifeneyeshuaib@gmail.com" style="color:rgba(255,255,255,0.65);">sherifeneyeshuaib@gmail.com</a></p>
-      </div>
-    </div>
-    <div class="footer-copy">© 2025 Sherif Eneye Shuaib. All Rights Reserved.</div>
-  </footer>
-
+<!-- ══ PUBLICATIONS ══ -->
+<section class="section bg-subtle">
+<div class="section-inner">
+<span class="section-eyebrow">Recent work</span>
+<h2 class="section-title">Selected Publications</h2>
+<ul class="pub-list" style="margin-top:1.2rem;">
+<li class="pub-item">
+<span class="pub-journal">Ecological Modelling · Q1</span>
+<p class="pub-title">A mechanistic stage-structured model for estimating maturation, mortality, and recruitment parameters of three economically significant fish species in Canadian waters</p>
+<p class="pub-authors">Shuaib SE, Rutayisire G, Han Q, Veprauskas A, &amp; Kong JD. (2025)</p>
+</li>
+<li class="pub-item">
+<span class="pub-journal">Intelligent Systems with Applications · Q1</span>
+<p class="pub-title">Formal concept views for explainable boosting: A lattice-theoretic framework for XGBoost and Gradient Boosting Models</p>
+<p class="pub-authors">Shuaib SE, Riyapan P, &amp; Muangprathub J. (2025)</p>
+</li>
+<li class="pub-item">
+<span class="pub-journal">Environmental Advances · Q1</span>
+<p class="pub-title">Predicting adaptations of fish and fishing communities to rapid climate velocities in Canadian waters: A systematic review</p>
+<p class="pub-authors">Fatima N, Shuaib SE, &amp; Kong JD. (2023)</p>
+</li>
+</ul>
+<a class="btn-outline-dark" href="publications.html">View All Other Publications →</a>
+</div>
+</section>
+<!-- ══ NEWS ══ -->
+<section class="section">
+<div class="section-inner">
+<span class="section-eyebrow">Latest</span>
+<h2 class="section-title">News &amp; Updates</h2>
+<div class="news-grid"><div class="news-item"><span class="news-date">2026</span><p>Research and teaching in mathematics and statistics at Walailak University, Thailand, with interests spanning mathematical epidemiology, ecology, data science, and explainable AI.</p></div>
+<div class="news-item">
+<span class="news-date">May 2026</span>
+<p>Invited virtual talk at Universitas Terbuka, Indonesia — "A Mechanistic Stage-Structured Model for Estimating Maturation, Mortality, and Recruitment Parameters."</p>
+</div>
+<div class="news-item">
+<span class="news-date">2025–2026</span>
+<p>Co-instructor for CHL8010H (Mathematical Epidemiology) and HAD7001H (Introduction to Data Science) at the University of Toronto.</p>
+</div>
+<div class="news-item">
+<span class="news-date">2025</span>
+<p>New paper in <em>Vaccines</em> (Q1): COVID-19 vaccine timing and co-administration with influenza vaccines — systematic review with international comparisons.</p>
+</div>
+<div class="news-item">
+<span class="news-date">2024</span>
+<p>York University Academic Excellence Fund for Publication and Other Scholarly Activities (2023 &amp; 2024).</p>
+</div>
+</div>
+</div>
+</section>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-col">
+<strong>Sherif Eneye Shuaib</strong>
+<p>Lecturer in Mathematics &amp; Statistics<br/>Walailak University, Thailand</p>
+</div>
+<div class="footer-col">
+<strong>Quick Links</strong>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<strong>Contact</strong>
+<p>School of Science<br/>Walailak University, Thailand</p>
+<p><a href="mailto:sherifeneyeshuaib@gmail.com" style="color:rgba(255,255,255,0.65);">sherifeneyeshuaib@gmail.com</a></p>
+</div>
+</div>
+<div class="footer-copy">© 2026 Sherif Eneye Shuaib. All Rights Reserved.</div>
+</footer>
 </body>
 </html>
